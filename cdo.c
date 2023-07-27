@@ -26,6 +26,8 @@
 // TODO: user needs to be able to run in free access mode/intervention
 //          intervention: require each returned list of cmds to be y/n
 //          free access: "It's turbo time!" Guardrails off, good luck.
+// TODO: need to specify to LLM/GPT which OS it is running on. Win/Mac/Linux(distro)/BSD
+// TODO: add ability to use local/self hosted LLM trained on terminal cmds
 
 // rando commando quote
 std::string getRandomQuote() {
