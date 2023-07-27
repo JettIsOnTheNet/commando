@@ -1,0 +1,4 @@
+apiKey=API_KEY
+apiUrl=ENDPOINT_URL
+cacert=PATH_TO_CA_CERT
+#logFile=LOG_FILE_PATH
