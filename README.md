@@ -17,5 +17,5 @@ cdo is a work in progress, and incomplete. This is something I whipped up in 2 h
 
 Build:
 ```
-gcc -o cdo cdo.cpp -lcurl
+g++ -o cdo cdo.cpp -lcurl
 ```
