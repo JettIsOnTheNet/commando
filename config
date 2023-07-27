@@ -1,0 +1,8 @@
+# this file should go in ~.cdo/config
+# should create this file on first go
+# should ask user for api key, endpoint etc
+# then store information
+apiKey=YOUR_GPT_API_KEY
+apiUrl=https://api.openai.com/v1/engines/davinci-codex/completions
+cacert=path/to/cacert.pem
+# logFile=cdo.log
