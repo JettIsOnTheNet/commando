@@ -27,12 +27,12 @@ TODOLIST from cdo.c
 * TODO: there is no system prompt
 * TODO: need to have system prompt be a part of the config file
 * TODO: system prompt should tell GPT to wrap cmd
-*          -cmd-/:cmd:/@cmd@/*cmd* dunno, char needs to be non volatile to shellcmd
-*          this way, each can be parsed, put into arr, and multiple
-*          lines can be sent in 1 request, then iter on each cmd
+           -cmd-/:cmd:/@cmd@/*cmd* dunno, char needs to be non volatile to shellcmd
+            this way, each can be parsed, put into arr, and multiple
+            lines can be sent in 1 request, then iter on each cmd
 * TODO: user needs to be able to run in free access mode/intervention
-*          intervention: require each returned list of cmds to be y/n
-*          free access: "It's turbo time!" Guardrails off, good luck.
+            intervention: require each returned list of cmds to be y/n
+            free access: "It's turbo time!" Guardrails off, good luck.
 * TODO: need to specify to LLM/GPT which OS it is running on. Win/Mac/Linux(distro)/BSD
 * TODO: add ability to use local/self hosted LLM trained on terminal cmds
 
